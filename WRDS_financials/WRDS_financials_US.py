@@ -8,7 +8,7 @@ Created on Fri May 8 02:12:18 2020
 
 '''Enter a list of 9 number unique cusip codes to retrieve 71 quarterly financial ratios 
 back to 1975 and or once data is available for the US listed firm
-e.g.
+e.g.,
 list_cusip9 = ['037833100', '594918104']
 login = WRDS login
 df_ratios = wrds_ratios_US(list_cusip9, 'WRDS_login')
