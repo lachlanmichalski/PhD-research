@@ -1,0 +1,20 @@
+createa Python file for our web backend, which we will call imgrec_webapp.py(using nano like we did earlier). 
+We will then have two folders, one to store the uploaded images (which we will call uploads) and one to store the HTML 
+files for your frontend (called templates). To create a folder, type mkdir folder_name into the console, where “folder_name” 
+can be replaced by your desired name. So the two commands to type are:
+
+mkdir uploads
+mkdir templates
+
+Now, we need to upload our model, my_cifar10_model.h5 into the server. Since the model is in my local computer, unfortunately, we can’t use 
+the console to upload the model from my desktop. Instead, we will use Windows PowerShell. This is an app that you likely have installed already 
+if you are using Windows. If you are on mac (which I am), use the following:
+
+brew install --cask powershell
+pwsh
+
+scp  /Users/lockiemichalski/Downloads/my_cifar10_model.h5 root@138.68.170.171:~
+
+Download file from https://github.com/josephlee94/intuitive-deep-learning/blob/master/Building%20a%20Web%20Application%20to%20Deploy%20Machine%20Learning%C2%A0Models/imgrec_webapp.py
+scp  /Users/lockiemichalski/Desktop/imgrec_webapp.py root@138.68.170.171:~
+
