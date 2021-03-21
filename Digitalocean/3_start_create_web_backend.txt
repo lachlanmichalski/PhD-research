@@ -13,8 +13,8 @@ if you are using Windows. If you are on mac (which I am), use the following:
 brew install --cask powershell
 pwsh
 
-scp  /Users/lockiemichalski/Downloads/my_cifar10_model.h5 root@138.68.170.171:~
+scp  /Users/lockiemichalski/Downloads/my_cifar10_model.h5 root@:~
 
 Download file from https://github.com/josephlee94/intuitive-deep-learning/blob/master/Building%20a%20Web%20Application%20to%20Deploy%20Machine%20Learning%C2%A0Models/imgrec_webapp.py
-scp  /Users/lockiemichalski/Desktop/imgrec_webapp.py root@138.68.170.171:~
+scp  /Users/lockiemichalski/Desktop/imgrec_webapp.py root@:~
 
